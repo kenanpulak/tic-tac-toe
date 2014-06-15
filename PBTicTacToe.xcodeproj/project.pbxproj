@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5969FF1946B6E500B91C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5969FE1946B6E500B91C22 /* Foundation.framework */; };
+		8E596A011946B6E500B91C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E596A001946B6E500B91C22 /* CoreGraphics.framework */; };
+		8E596A031946B6E500B91C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E596A021946B6E500B91C22 /* UIKit.framework */; };
+		8E596A091946B6E500B91C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A071946B6E500B91C22 /* InfoPlist.strings */; };
+		8E596A0B1946B6E500B91C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A0A1946B6E500B91C22 /* main.m */; };
+		8E596A0F1946B6E500B91C22 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A0E1946B6E500B91C22 /* PBAppDelegate.m */; };
+		8E596A181946B6E500B91C22 /* PBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A171946B6E500B91C22 /* PBMainViewController.m */; };
+		8E596A1A1946B6E500B91C22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A191946B6E500B91C22 /* Images.xcassets */; };
+		8E596A211946B6E500B91C22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E596A201946B6E500B91C22 /* XCTest.framework */; };
+		8E596A221946B6E500B91C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5969FE1946B6E500B91C22 /* Foundation.framework */; };
+		8E596A231946B6E500B91C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E596A021946B6E500B91C22 /* UIKit.framework */; };
+		8E596A2B1946B6E500B91C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A291946B6E500B91C22 /* InfoPlist.strings */; };
+		8E596A2D1946B6E500B91C22 /* PBTicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A2C1946B6E500B91C22 /* PBTicTacToeTests.m */; };
+		8E596A381946C96600B91C22 /* PBSingleBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A371946C96600B91C22 /* PBSingleBoardView.m */; };
+		8E596A3E1946E4FD00B91C22 /* PBPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A3D1946E4FD00B91C22 /* PBPlayerModel.m */; };
+		8E596A44194CDA3300B91C22 /* PBGameBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A43194CDA3300B91C22 /* PBGameBoardModel.m */; };
+		8E596A4C194D0C4100B91C22 /* UIColor+PBColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596A4B194D0C4100B91C22 /* UIColor+PBColors.m */; };
+		8E596A52194D122900B91C22 /* circle-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A50194D122900B91C22 /* circle-ipad.png */; };
+		8E596A53194D122900B91C22 /* circle-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A51194D122900B91C22 /* circle-iphone.png */; };
+		8E596A5D194D197E00B91C22 /* x-iphone-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A5C194D197E00B91C22 /* x-iphone-blue.png */; };
+		8E596A5F194D198400B91C22 /* x-ipad-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E596A5E194D198400B91C22 /* x-ipad-blue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E596A241946B6E500B91C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5969F31946B6E400B91C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5969FA1946B6E500B91C22;
+			remoteInfo = PBTicTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5969FB1946B6E500B91C22 /* PBTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5969FE1946B6E500B91C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E596A001946B6E500B91C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E596A021946B6E500B91C22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E596A061946B6E500B91C22 /* PBTicTacToe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBTicTacToe-Info.plist"; sourceTree = "<group>"; };
+		8E596A081946B6E500B91C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E596A0A1946B6E500B91C22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E596A0C1946B6E500B91C22 /* PBTicTacToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBTicTacToe-Prefix.pch"; sourceTree = "<group>"; };
+		8E596A0D1946B6E500B91C22 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		8E596A0E1946B6E500B91C22 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		8E596A161946B6E500B91C22 /* PBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBMainViewController.h; sourceTree = "<group>"; };
+		8E596A171946B6E500B91C22 /* PBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBMainViewController.m; sourceTree = "<group>"; };
+		8E596A191946B6E500B91C22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E596A1F1946B6E500B91C22 /* PBTicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBTicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E596A201946B6E500B91C22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E596A281946B6E500B91C22 /* PBTicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBTicTacToeTests-Info.plist"; sourceTree = "<group>"; };
+		8E596A2A1946B6E500B91C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E596A2C1946B6E500B91C22 /* PBTicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBTicTacToeTests.m; sourceTree = "<group>"; };
+		8E596A361946C96600B91C22 /* PBSingleBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSingleBoardView.h; sourceTree = "<group>"; };
+		8E596A371946C96600B91C22 /* PBSingleBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSingleBoardView.m; sourceTree = "<group>"; };
+		8E596A3C1946E4FD00B91C22 /* PBPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPlayerModel.h; sourceTree = "<group>"; };
+		8E596A3D1946E4FD00B91C22 /* PBPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPlayerModel.m; sourceTree = "<group>"; };
+		8E596A42194CDA3300B91C22 /* PBGameBoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGameBoardModel.h; sourceTree = "<group>"; };
+		8E596A43194CDA3300B91C22 /* PBGameBoardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGameBoardModel.m; sourceTree = "<group>"; };
+		8E596A4A194D0C4100B91C22 /* UIColor+PBColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PBColors.h"; sourceTree = "<group>"; };
+		8E596A4B194D0C4100B91C22 /* UIColor+PBColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PBColors.m"; sourceTree = "<group>"; };
+		8E596A50194D122900B91C22 /* circle-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-ipad.png"; sourceTree = "<group>"; };
+		8E596A51194D122900B91C22 /* circle-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-iphone.png"; sourceTree = "<group>"; };
+		8E596A5C194D197E00B91C22 /* x-iphone-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-iphone-blue.png"; sourceTree = "<group>"; };
+		8E596A5E194D198400B91C22 /* x-ipad-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-ipad-blue.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5969F81946B6E500B91C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A011946B6E500B91C22 /* CoreGraphics.framework in Frameworks */,
+				8E596A031946B6E500B91C22 /* UIKit.framework in Frameworks */,
+				8E5969FF1946B6E500B91C22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E596A1C1946B6E500B91C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A211946B6E500B91C22 /* XCTest.framework in Frameworks */,
+				8E596A231946B6E500B91C22 /* UIKit.framework in Frameworks */,
+				8E596A221946B6E500B91C22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5969F21946B6E400B91C22 = {
+			isa = PBXGroup;
+			children = (
+				8E596A041946B6E500B91C22 /* PBTicTacToe */,
+				8E596A261946B6E500B91C22 /* PBTicTacToeTests */,
+				8E5969FD1946B6E500B91C22 /* Frameworks */,
+				8E5969FC1946B6E500B91C22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5969FC1946B6E500B91C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5969FB1946B6E500B91C22 /* PBTicTacToe.app */,
+				8E596A1F1946B6E500B91C22 /* PBTicTacToeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5969FD1946B6E500B91C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5969FE1946B6E500B91C22 /* Foundation.framework */,
+				8E596A001946B6E500B91C22 /* CoreGraphics.framework */,
+				8E596A021946B6E500B91C22 /* UIKit.framework */,
+				8E596A201946B6E500B91C22 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E596A041946B6E500B91C22 /* PBTicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A49194D0C1900B91C22 /* Categories */,
+				8E596A0D1946B6E500B91C22 /* PBAppDelegate.h */,
+				8E596A0E1946B6E500B91C22 /* PBAppDelegate.m */,
+				8E596A4F194D0EF600B91C22 /* View Controllers */,
+				8E596A4E194D0EE400B91C22 /* Views */,
+				8E596A4D194D0ED800B91C22 /* Models */,
+				8E596A191946B6E500B91C22 /* Images.xcassets */,
+				8E596A051946B6E500B91C22 /* Supporting Files */,
+				8E596A60194D199100B91C22 /* Images */,
+			);
+			path = PBTicTacToe;
+			sourceTree = "<group>";
+		};
+		8E596A051946B6E500B91C22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A061946B6E500B91C22 /* PBTicTacToe-Info.plist */,
+				8E596A071946B6E500B91C22 /* InfoPlist.strings */,
+				8E596A0A1946B6E500B91C22 /* main.m */,
+				8E596A0C1946B6E500B91C22 /* PBTicTacToe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E596A261946B6E500B91C22 /* PBTicTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A2C1946B6E500B91C22 /* PBTicTacToeTests.m */,
+				8E596A271946B6E500B91C22 /* Supporting Files */,
+			);
+			path = PBTicTacToeTests;
+			sourceTree = "<group>";
+		};
+		8E596A271946B6E500B91C22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A281946B6E500B91C22 /* PBTicTacToeTests-Info.plist */,
+				8E596A291946B6E500B91C22 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E596A49194D0C1900B91C22 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A4A194D0C4100B91C22 /* UIColor+PBColors.h */,
+				8E596A4B194D0C4100B91C22 /* UIColor+PBColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8E596A4D194D0ED800B91C22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A3C1946E4FD00B91C22 /* PBPlayerModel.h */,
+				8E596A3D1946E4FD00B91C22 /* PBPlayerModel.m */,
+				8E596A42194CDA3300B91C22 /* PBGameBoardModel.h */,
+				8E596A43194CDA3300B91C22 /* PBGameBoardModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8E596A4E194D0EE400B91C22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A361946C96600B91C22 /* PBSingleBoardView.h */,
+				8E596A371946C96600B91C22 /* PBSingleBoardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E596A4F194D0EF600B91C22 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A161946B6E500B91C22 /* PBMainViewController.h */,
+				8E596A171946B6E500B91C22 /* PBMainViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8E596A60194D199100B91C22 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E596A50194D122900B91C22 /* circle-ipad.png */,
+				8E596A51194D122900B91C22 /* circle-iphone.png */,
+				8E596A5E194D198400B91C22 /* x-ipad-blue.png */,
+				8E596A5C194D197E00B91C22 /* x-iphone-blue.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5969FA1946B6E500B91C22 /* PBTicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E596A301946B6E500B91C22 /* Build configuration list for PBXNativeTarget "PBTicTacToe" */;
+			buildPhases = (
+				8E5969F71946B6E500B91C22 /* Sources */,
+				8E5969F81946B6E500B91C22 /* Frameworks */,
+				8E5969F91946B6E500B91C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBTicTacToe;
+			productName = PBTicTacToe;
+			productReference = 8E5969FB1946B6E500B91C22 /* PBTicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E596A1E1946B6E500B91C22 /* PBTicTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E596A331946B6E500B91C22 /* Build configuration list for PBXNativeTarget "PBTicTacToeTests" */;
+			buildPhases = (
+				8E596A1B1946B6E500B91C22 /* Sources */,
+				8E596A1C1946B6E500B91C22 /* Frameworks */,
+				8E596A1D1946B6E500B91C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E596A251946B6E500B91C22 /* PBXTargetDependency */,
+			);
+			name = PBTicTacToeTests;
+			productName = PBTicTacToeTests;
+			productReference = 8E596A1F1946B6E500B91C22 /* PBTicTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5969F31946B6E400B91C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kenan Pulak";
+				TargetAttributes = {
+					8E5969FA1946B6E500B91C22 = {
+						DevelopmentTeam = YR92SMC66S;
+					};
+					8E596A1E1946B6E500B91C22 = {
+						TestTargetID = 8E5969FA1946B6E500B91C22;
+					};
+				};
+			};
+			buildConfigurationList = 8E5969F61946B6E400B91C22 /* Build configuration list for PBXProject "PBTicTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E5969F21946B6E400B91C22;
+			productRefGroup = 8E5969FC1946B6E500B91C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5969FA1946B6E500B91C22 /* PBTicTacToe */,
+				8E596A1E1946B6E500B91C22 /* PBTicTacToeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5969F91946B6E500B91C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A53194D122900B91C22 /* circle-iphone.png in Resources */,
+				8E596A1A1946B6E500B91C22 /* Images.xcassets in Resources */,
+				8E596A5F194D198400B91C22 /* x-ipad-blue.png in Resources */,
+				8E596A5D194D197E00B91C22 /* x-iphone-blue.png in Resources */,
+				8E596A52194D122900B91C22 /* circle-ipad.png in Resources */,
+				8E596A091946B6E500B91C22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E596A1D1946B6E500B91C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A2B1946B6E500B91C22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5969F71946B6E500B91C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A0F1946B6E500B91C22 /* PBAppDelegate.m in Sources */,
+				8E596A4C194D0C4100B91C22 /* UIColor+PBColors.m in Sources */,
+				8E596A381946C96600B91C22 /* PBSingleBoardView.m in Sources */,
+				8E596A181946B6E500B91C22 /* PBMainViewController.m in Sources */,
+				8E596A44194CDA3300B91C22 /* PBGameBoardModel.m in Sources */,
+				8E596A3E1946E4FD00B91C22 /* PBPlayerModel.m in Sources */,
+				8E596A0B1946B6E500B91C22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E596A1B1946B6E500B91C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E596A2D1946B6E500B91C22 /* PBTicTacToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E596A251946B6E500B91C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5969FA1946B6E500B91C22 /* PBTicTacToe */;
+			targetProxy = 8E596A241946B6E500B91C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E596A071946B6E500B91C22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E596A081946B6E500B91C22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E596A291946B6E500B91C22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E596A2A1946B6E500B91C22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E596A2E1946B6E500B91C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E596A2F1946B6E500B91C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E596A311946B6E500B91C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBTicTacToe/PBTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PBTicTacToe/PBTicTacToe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16174909-FC33-4643-80EB-1E256887F4FA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E596A321946B6E500B91C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBTicTacToe/PBTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PBTicTacToe/PBTicTacToe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16174909-FC33-4643-80EB-1E256887F4FA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E596A341946B6E500B91C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PBTicTacToe.app/PBTicTacToe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBTicTacToe/PBTicTacToe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PBTicTacToeTests/PBTicTacToeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E596A351946B6E500B91C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PBTicTacToe.app/PBTicTacToe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBTicTacToe/PBTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PBTicTacToeTests/PBTicTacToeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5969F61946B6E400B91C22 /* Build configuration list for PBXProject "PBTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E596A2E1946B6E500B91C22 /* Debug */,
+				8E596A2F1946B6E500B91C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E596A301946B6E500B91C22 /* Build configuration list for PBXNativeTarget "PBTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E596A311946B6E500B91C22 /* Debug */,
+				8E596A321946B6E500B91C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E596A331946B6E500B91C22 /* Build configuration list for PBXNativeTarget "PBTicTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E596A341946B6E500B91C22 /* Debug */,
+				8E596A351946B6E500B91C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5969F31946B6E400B91C22 /* Project object */;
+}
